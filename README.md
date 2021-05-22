@@ -39,6 +39,7 @@ The following animation demonstrates the application functionality:
 You are required to submit the following for review:
 
 * The URL of the deployed application.
+https://kyle004.github.io/Work-Day-Scheduler/
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
