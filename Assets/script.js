@@ -1,8 +1,9 @@
+colorTimer()
 
 $('#currentDay').text(moment().format('dddd') + ', ' + moment().format('MMMM Do YYYY'))
 let timeInterval = setInterval(colorTimer, 10000)
 for (i = 0; i < localStorage.length; i++) {
-  $("#" + localStorage.key(i) + ' .description').val(localStorage.getItem(localStorage.key(i)))
+  $("#"+localStorage.key(i)+' .description').val(localStorage.getItem(localStorage.key(i)))
 }
 
 $('.saveBtn').on('click', function () {
@@ -31,4 +32,3 @@ function colorTimer() {
   }
   
 }
-colorTimer()
